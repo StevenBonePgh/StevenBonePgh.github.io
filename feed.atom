@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<id>/</id>
+	<title />
+	<link rel="self" href="/" />
+	<rights>Copyright © 2021 Steven Bone</rights>
+	<updated>2021-10-16T21:37:44Z</updated>
+	<entry>
+		<id>/posts/helloagain</id>
+		<title>Hello Again</title>
+		<link href="/posts/helloagain" />
+		<updated>2021-10-16T00:00:00Z</updated>
+		<content>&lt;p&gt;A long time ago I used Blogspot as a platform for blogging. I was never very happy with it, and many
+posts never were officially published because included code looked terrible and was unusable. I thought I'd revisit posting them after finding a style and/or way to make code easier to consume. Sadly that never happened, and once you pause something life happens, and pause becomes 'stop.'&lt;/p&gt;
+&lt;p&gt;Recently I've been having some conversations with former coworkers talking about the good-old-days and was reminded of the old blog. Certainly things have improved recently in this world, right? Turns out, not really. I'd rather write in Markdown, use modern tooling, be able to style sample code, and lots more. Coincidentally, I was inspired by &lt;a href="https://mikehadlow.com/posts/welcome-to-my-new-blog/"&gt;Mike Hadlow&lt;/a&gt; who recently redid his blog platform, and is a worthwhile read - much of what I said here was said better by Mike.&lt;/p&gt;
+&lt;p&gt;While looking further into options, &lt;a href="https://weblog.west-wind.com/"&gt;Rick Strahl&lt;/a&gt; was kind enough to respond to a question regarding using &lt;a href="https://markdownmonster.west-wind.com/"&gt;Markdown Monster&lt;/a&gt; and mentioned &lt;a href="https://www.statiq.dev/web/"&gt;Statiq.Web&lt;/a&gt; (among other options), and given Mike Hadlow's comments, thought I'd investigate that a bit more. There are a few blogging templates for it. One by &lt;a href="https://github.com/bradwellsb/statiq-blog-boilerplate"&gt;Bradley Wells&lt;/a&gt;, and another a &lt;a href="https://github.com/statiqdev/CleanBlog"&gt;CleanBlog&lt;/a&gt; by Dave Glick (author of Statiq.Web). I also found a set of posts by &lt;a href="https://www.feiko.io/posts/2021-04-30-create-your-own-net-powered-website-for-free"&gt;Feiko Gorter&lt;/a&gt; that walk you through a process to create and automate this via &lt;a href="https://docs.github.com/en/pages"&gt;GitHub Pages&lt;/a&gt;. What you see here is essentially thanks to that article.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-csharp"&gt;using System;
+
+public class Program{
+  public static Main(){
+    Console.WriteLine(&amp;quot;Hello World (again)&amp;quot;);
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+		<summary>Setup of new blog using Statiq.web and Github Pages</summary>
+	</entry>
+</feed>
